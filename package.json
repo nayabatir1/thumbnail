@@ -1,0 +1,29 @@
+{
+  "name": "thumbnail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nayabatir1/thumbnail.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nayabatir1/thumbnail/issues"
+  },
+  "homepage": "https://github.com/nayabatir1/thumbnail#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "ffmpeg": "^0.0.4",
+    "formidable": "^2.0.1",
+    "jimp": "^0.16.1",
+    "mongoose": "^6.2.9"
+  }
+}
