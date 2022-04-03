@@ -22,7 +22,6 @@ if (isMainThread) {
   };
 } else {
   const Jimp = require("jimp");
-  const FFmpeg = require("ffmpeg");
 
   const { task, size } = workerData;
 
